@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Index</title>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="index.css">
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   <!--Google Fonts-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="htt   ps://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+      <body>
+      <img class="gify" src="cute.gif">
+
+  <!--description-->   
+  <img src="bg.jpeg" alt="" class="bg">
+
+  <div class="card">
+      <div id="targt">  
+        <script >
+          var mystring = "Hi there... I will keep track and remind you of your important tasks like electricity bill payment ,rent payment,etc... And i can remind you to eat healthy food ,drink more water etc...I will checkin on you everyday and when you respond,I will share my inspirational quote to make your day and if I dont hear back I will send a message to your emergency contacts to let them know that you might need help.You can see me as your friend and share about your day to me..."  ;
+          var myarr = mystring.split("");
+          function framelooper(){
+          if(myarr.length>0)
+          { 
+            document.getElementById("targt").innerHTML += myarr.shift()  ;
+          }
+         else
+         {
+            clearInterval("looptimer") ;
+          }
+        }  
+        looptimer =  setInterval(framelooper,25) ;
+      </script>
+    </div>
+    <br><h>
+    <div class="join">
+      What are you waiting for??
+      <br><br>
+     <!--<button href="login.php">JOIN US</!--<button>-->
+      
+    </div> 
+    <a href="login.php" class="button">Join US!!</a>
+   </div>
+   </br>
+
+   <!--Footer-->
+   
+    
+
+
+   <footer>
+       <ul class="icons">
+           <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+           <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+           <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+           <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+       </ul>
+       <ul class="menu">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Partners</a></li>
+               <li><a href="#">Specialties</a></li>
+               <li><a href="#">Contact Us</a></li>
+       </ul>
+           <div class="footer-copyright">
+               <p>Copyright @ 2022 All Rights Reserved.</p>
+           </div>
+   </footer>
+   </body>
+   </html>
+
+   </body>
+   </html>
