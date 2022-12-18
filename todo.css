@@ -1,0 +1,237 @@
+/*Header*/
+.nav {
+    /*margin-top: -100px;*/
+    background-color:rgba(161, 34, 159, 0.507);
+    height: 70px;
+  }
+  .he{
+  margin-top: -20px;
+  width:50px;
+  height:50px;
+  }
+  
+  .nav t{
+    color:rgba(255, 255, 255, 0.459)(222, 215, 215, 0.444);
+    font-weight: bolder;
+    font-family:'Pacifico', cursive;
+    margin-left: -10px;
+    size: 50px;
+    font-size: 30px;
+  
+  }
+  
+  .gify{
+    width: 400px;  
+  }
+  
+  
+  .bg
+  {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  }
+  
+  /* common styles */
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #0a3dd4;
+  }
+  
+  ul {
+    list-style-type: none; /* get rid of bullet points on side of list items */
+  }
+  
+  /* common style ends */
+  
+  /* container */
+  .container {
+   
+    background: #f4a4e6a0;
+    width:500px;
+      height: 200px;
+      padding: 50px;
+      position: absolute;
+      margin: 100px;
+  
+  border-radius: 20px;
+  right: 200px;
+  
+ 
+  }
+  
+  h1{
+    font-size: 50px;
+    font-family: 'Rubik Vinyl';
+   color: rgb(109, 35, 132);
+  }
+  
+  /* todo-form */
+  
+  .todo-form {
+    margin: 40px 0px;
+  }
+  
+  .todo-input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  .add-button {
+    background-color: #d900ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+  
+  /* todo-form style ends */
+  
+  /* todo-items */
+  .todo-items {
+    min-width: 350px;
+  }
+  
+  /* each li with class="item" */
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  /* item style end */
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    float: right;
+    background-color: #dc148f;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+  
+  /* applied when the todo item is checked */
+  .checked { 
+    text-decoration: line-through;
+    background-color: #e1ddde
+  }
+  
+  /* todo-items style ends */
+  
+  /* container style ends */
+  
+  
+  
+    /*Footer*/
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+    
+    html{
+        height: 100%;
+    }
+    
+    body{
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    footer{
+      background-color:rgba(117, 21, 115, 0.603);
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 30px;
+        margin-top: auto;
+       
+    }
+    
+    footer li{
+        list-style: none;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+    .icons a{
+        background: #f4a4e6a0;
+        color: #272727;
+        padding: 14px;
+        font-size: 20px;
+        border-radius: 100%;
+        display: flex;
+    }
+    .icons a:hover{
+        color: #ffffff;
+        transition: 0.5s;
+    }
+    
+    .menu a{
+        color: #ffffff;
+        text-transform: capitalize;
+    }
+    .menu a:hover{
+        color: #52527a;
+        transition: 0.5s;
+    }
+    
+    .footer-copyright{
+        background-color:rgba(138, 17, 136, 0.486);
+        color: #ffffff;
+        padding: 15px;
+        margin-top: 30px;
+        text-transform: capitalize;
+    }
+    
+    .footer-copyright p{
+        margin-bottom: 0px;
+    }
+    .us{
+      color: #eee;
+      font-weight: bolder;
+    }
