@@ -22,12 +22,17 @@ This page allows you to book cab,train,flight and bus tickets.It brings all thes
 stack used:html,css
 
 5.To-Do-List
-This page allows us to save tasks that needs to be done and delete them as and when needed.
-stack used:html,css
+This page allows us to save tasks that needs to be done and delete them as and when needed.The data is stored for each user.
+stack used:html,css,js
 
 6.Reminder
-
-stack used:html,css
-
+This page reminds us the tasks that needs to be done by shouting out the task at the time specified.we can delete them as and when needed.The data is stored for each user.It can remind us to take our medicine on time for instance.
+stack used:html,css,js
 
 7.Emergency Contact Page
+   This page allows the user to set a emergency contact to whose mail id an email would be send if the user fails to login even a single day.this aims to ensure safety of hostelers and people who enjoy solitude.
+   stacks used:php,css,html,mysql
+
+Errors:
+We are facing trouble with STMP port setting and its other settings.Hence we wont be able to send the mail as of now.But,we will work on it and make our website into a fully functional dynamic website.
+we are also facing trouble in hosting php pages as github doesnt support dynamic websites and almost all other trustworthy sites are paid.
